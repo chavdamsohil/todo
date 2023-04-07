@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 body {
   /* background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); */
@@ -12,7 +13,12 @@ body {
 }
 header {
   font-size: 2rem;
-  color: #f14d1f8a;
+  color: #f3663fc4;
+}
+header:hover {
+  letter-spacing: 0.4rem;
+  transition: all 0.5s;
+  transform: scale(1.2);
 }
 
 header,
